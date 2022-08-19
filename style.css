@@ -222,6 +222,11 @@ textarea{
 .contact-me h2,.map h2{
     color: white;
 }
+.contact-containar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 /* contact me ends here */
 
 /* footer starts here */
@@ -234,9 +239,5 @@ textarea{
 .footer-section p{
     text-align: right;
 }
-.contact-containar::after{
-    content: '';
-    display: table;
-    clear: both;
-}
+
 /* footer ends here */
