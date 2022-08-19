@@ -173,14 +173,19 @@ p{
 
 /* about me design ends here */
 /* contact me sterts here */
+.contact-containar{
+    background-color: #39a4ac 
+}
+.map iframe{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
 .contact-me{
-    background-color: #00acb8;
     padding: 1% 7%;
     text-align: center
 }
-#Contact-form{
-    
-}
+
 input{
     border: none;
     outline: none;
@@ -189,6 +194,7 @@ input{
     margin: 5px;
     border-radius: 5px;
     border: 1px solid blue;
+    text-align: center
 }
 textarea{
     border: none;
@@ -198,7 +204,8 @@ textarea{
     margin: 5px;
     border-radius: 5px;
     border: 1px solid blue;
-    resize: none
+    resize: none;
+    text-align: center
 }
 .contact-me button{
     background-color: #052b2f;
@@ -212,7 +219,7 @@ textarea{
     margin: 10px; 
     width: 170px
 }
-.contact-me h2{
+.contact-me h2,.map h2{
     color: white;
 }
 /* contact me ends here */
@@ -222,8 +229,14 @@ textarea{
     background-color: black;
     color: white;
     padding: 1% 7%;
+    width: 100%
 }
 .footer-section p{
     text-align: right;
 }
-/* footer starts here */
+.contact-containar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* footer ends here */
