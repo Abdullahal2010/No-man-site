@@ -57,7 +57,7 @@
     <h2>About me</h2>
     <hr class="dotted-hr">
     <div class="aboutme-image col-6">
-        <img src="images/Some.jpg" alt="My photo">
+        <img src="images/some.jpg" alt="My photo">
     </div>
     <div class="aboutme-desc col-6">
         <p>I like to call my self "a student & computer lover secially programing"</p>
@@ -80,20 +80,31 @@
 </div>
 <!-- about me ends here -->
 <!-- contact me section starts here -->
-<div class="contact-me" id="contact-me">
-    <h2>Contact me</h2>
-    <hr class="dotted-hr">
-    <form action="https://formspree.io/f/xyyvybrw" method="POST" id="Contact-form">
-        <input type="text" name="Name:" placeholder="Your name"><br>
-        <input type="email" name="Email:" placeholder="Your email"><br>
-        <textarea name="Comment:" id="" cols="30" rows="10" placeholder="Your massege here"></textarea><br>
-        <button type="submit">Send</button>
-    </form>
+
+<div class="contact-containar">
+    <div class="map col-6">
+        <h2>
+            Location in map
+            <hr class="dotted-hr">
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1660907791899!6m8!1m7!1sbaznJm1ptgToCMt9AT4l-w!2m2!1d22.91494458874223!2d91.10201010284015!3f273.3539369985484!4f-33.86718245084827!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </h2>
+    </div>
+    <div class="contact-me col-6" id="contact-me">
+        <h2>Contact me</h2>
+        <hr class="dotted-hr">
+        <form action="https://formspree.io/f/xyyvybrw" method="POST" id="Contact-form">
+            <input type="text" name="Name:" placeholder="Your name"><br>
+            <input type="email" name="Email:" placeholder="Your email"><br>
+            <textarea name="Comment:" id="" cols="30" rows="10" placeholder="Your massege here"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
 </div>
+
 <!-- contact me section ends here -->
 <!-- footer starts here -->
 <div class="footer-section">
-    <p>Conpyright &copy; Abdullah Al Noman.</p>
+   <p> Copyright &copy; Abdullah Al Noman</p>
 </div>
 <!-- footer ends here -->
 </body>
