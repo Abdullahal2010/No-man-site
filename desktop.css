@@ -81,5 +81,8 @@
 .aboutme-desc p{
     text-align: left;
 }
+.map iframe{
+    width: 500px;
+}
 /* about me design ends here */
 
